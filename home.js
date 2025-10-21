@@ -365,14 +365,15 @@ function createCard(item) {
 
 
   // Select the button and the section title
-const learnMoreBtn = document.getElementById('learn-more-btn');
-const navi = document.querySelector('.navi');
-
-learnMoreBtn.addEventListener('click', () => {
-  if (navi) {
-    navi.scrollIntoView({ 
-      behavior: 'smooth',  // smooth scrolling
-      block: 'start'       // align section title to top
-    });
-  }
-});
+  // Select the button and the section title
+  const learnMoreBtn = document.getElementById('learn-more-btn');
+  const navi = document.querySelector('.logo-header');
+  
+  learnMoreBtn.addEventListener('click', () => {
+    if (navi) {
+      navi.scrollIntoView({ 
+        behavior: 'smooth',  // smooth scrolling
+        block: 'start'       // align section title to top
+      });
+    }
+  });
