@@ -55,10 +55,11 @@ nav button {
   background: none;
   border: 2px solid var(--burgundy);
   color: var(--burgundy);
-  font-size: 1.15rem;
+  font-size: 1.25rem;
   font-family: 'Cormorant Garamond', serif;
   margin: 0 0.3rem;
   padding: 0.4rem 1rem;
+  font-weight: 700 !important;
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s ease, color 0.3s ease;
